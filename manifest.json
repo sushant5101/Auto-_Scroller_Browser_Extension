@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "scroller",
+    "version": "1.0",
+    "description": "A simple browser extension for scrolling finished reels and shorts.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
