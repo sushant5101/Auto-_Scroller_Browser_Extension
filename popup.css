@@ -10,10 +10,12 @@ body {
     font-family: "Kodchasan", serif;
     font-weight: 400;
     font-style: italic;
+    transition: all 2s ease-in;
 }
 
 #body1 {
     background-color: rgb(26, 25, 25);
+    width: 230px;
     height: 300px;
 }
 
@@ -107,7 +109,7 @@ input {
 
 }
 
-footer{
+footer {
     background-color: black;
 }
 
